@@ -11,6 +11,47 @@ transition: color 1s;
     background-size: cover;
     background-position: center center;
 }
+.text::after{
+    content: "";
+    
+    animation: typing 3s infinite alternate;
+    }
+    @keyframes typing{
+        0%{
+            content: "D|";
+        }
+        10%{
+            content: "De|";
+        }
+        20%{
+            content: "Des|";
+        }
+        30%{
+            content: "Desi|";
+        }
+        40%{
+            content: "Desig|";
+        }
+        50%{
+            content: "Design|";
+        }
+        60%{
+            content: "Designer|";
+        }
+        70%{
+            content: "De|";
+        }
+        80%{
+            content: "Deve|";
+        }
+        90%{
+            content: "Develop|";
+        }
+        100%{
+            content: "Developer|";
+        }
+       
+    }
 body {
     font-family: "Roboto", sans-serif;
   }
